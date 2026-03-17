@@ -1,0 +1,6 @@
+tools/*.cpp
+drafts/*
+
+# Compiled files (add your naming convention here)
+*.o
+result
