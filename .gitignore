@@ -1,6 +1,6 @@
 tools/*.cpp
 drafts/*
-
+**/input_hints/*
 # Compiled files (add your naming convention here)
 *.o
 result
