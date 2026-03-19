@@ -2,6 +2,8 @@
 
 W bioinformatyce bardzo często wykorzystuje się **programowanie obiektowe**.
 
+**Repozytorium Git (Laboratorium 4).** Obowiązuje ustalony przepływ pracy: osobny commit na każde zadanie, osobny branch na każdą część laboratorium oraz scalanie do gałęzi głównej po ukończeniu części. Szczegółowe polecenia, w tym **konwencję komunikatów commitów**, znajdziesz w pliku [`tasks.md`](tasks.md) w sekcji *Polecenia dotyczące Git*.
+
 Obiekty mogą reprezentować elementy biologiczne, np.:
 
 - gen

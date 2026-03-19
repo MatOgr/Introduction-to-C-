@@ -12,6 +12,33 @@ W szczególności będziemy pracować z:
 - `struct`, `union`, `enum`
 - wskaźnikami (`pointers`)
 
+## Polecenia dotyczące Git
+
+W ramach tego laboratorium stosuj następujący przepływ pracy z repozytorium:
+
+1. **Jedno zadanie = jeden commit**  
+   Każde zadanie (np. Zadanie 1, 2, …) wprowadzaj jako **osobną, logicznie spójną zmianę** i zapisuj ją w **osobnym commicie**. Nie łącz w jednym commicie rozwiązań kilku zadań ani nie odkładaj wielu zadań na jeden duży commit.
+
+2. **Jedna część = jeden branch, potem merge do gałęzi głównej**  
+   Dla każdej **części** laboratorium (np. Część 1 – Klasy, Część 2 – Przeciążanie operatorów, …):
+   - utwórz **nowy branch** od aktualnej gałęzi głównej (`main` lub `master`, zgodnie z repozytorium),
+   - na tym branchu wykonaj **wszystkie zadania** z danej części (nadal: **jedno zadanie = jeden commit**),
+   - po ukończeniu części **scal zmiany** z powrotem do gałęzi głównej (merge lub pull request, w zależności od ustalonego workflow),
+   - przed rozpoczęciem kolejnej części upewnij się, że pracujesz od **aktualnej** gałęzi głównej (np. `git checkout main && git pull`).
+
+Przykładowe nazwy branchy: `lab4/czesc-1-klasy`, `lab4/czesc-2-operatorzy`, `lab4/czesc-3-rzutowanie` itd.
+
+3. **Konwencja komunikatów commitów**  
+   Każdy commit powinien mieć **krótki, jednozdaniowy** opis po polsku lub angielsku (spójnie w całym laboratorium), z którego wynika **numer zadania** i **co zostało zrobione**.
+
+   Przykłady:
+
+   - `lab4: zadanie 1 – klasa Gene`
+   - `lab4: zadanie 5 – operator + dla DNASequence`
+   - `lab4 cz.3: zadanie 9 – static_cast`
+
+   Unikaj ogólników w stylu „poprawki” lub „lab4” bez kontekstu. Jeśli potrzebujesz doprecyzowania, dodaj drugą linię w treści commita (pusty wiersz po pierwszej linii, potem szczegóły).
+
 ---
 
 # Część 1 – Klasy
