@@ -44,6 +44,10 @@ C++ pozwala na **przeciążanie operatorów**, co oznacza, że można zdefiniowa
 Operator `+` może oznaczać **łączenie sekwencji DNA**.
 
 ```cpp
+DNASequence operator+(const DNASequence& a, const DNASequence& b) {
+    return DNASequence(a.id + b.id, a.sequence + b.sequence);
+}
+
 DNASequence s3 = s1 + s2;
 ```
 
